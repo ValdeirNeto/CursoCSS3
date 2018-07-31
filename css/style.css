@@ -1,6 +1,17 @@
-.section{
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-3 {width: 22.59%;}
+
+.text-center{
     text-align: center;
-    padding-left: 20px;
 }
 
 #corners1{
