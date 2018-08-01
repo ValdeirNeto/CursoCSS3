@@ -13,7 +13,30 @@
 .text-center{
     text-align: center;
 }
+.element1{
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #3d647f;
+    color: white;
+    -webkit-transition: background-color 2s, width 3s;
+    transition: background-color 2s, width 3s;
+}
+.transitions1{
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
 
+.transitions2{
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+.element1:hover{
+    width: 500px;
+    background-color: black;
+}
 #corners1{
     border-radius: 25px 50px 25px  50px; 
     background: #0288D1;
